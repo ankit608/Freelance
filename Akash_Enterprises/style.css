@@ -3,7 +3,159 @@
 *:focus {
   outline: none;
 }
+ #insta:hover{
+     color: red;
+ }
+ #google:hover{
+  color:rgb(255, 115, 80);
 
+ }
+ 
+ #facebook:hover{
+   color:#4267B2 ;
+  
+ }
+ #twitter:hover{
+  color:#1DA1F2;
+
+ }
+.contactUS p{
+   
+ font-weight:400;
+  margin-left: 5px;
+}
+
+.info-container{
+  margin-top: 30px;
+  margin-left: 80%;
+  padding-right: 2px;
+
+}
+.size{
+  font-size: x-large;
+  margin-left: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+
+ }
+ .size:hover{
+    transform: translateY(3px); 
+    cursor: pointer;
+   
+ }
+.info2{
+ 
+  width: 50%;
+
+}
+.contactUS div h1{
+   margin-left: 40%;
+  color: #16a085; 
+ font-weight: bold;
+ font-family: serif;
+  text-decoration: underline;
+
+
+}
+
+.contactUS{
+position: relative;
+background-color: white;
+ top: 40vh;
+ width: 92vw;
+ height:250px;
+
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+ margin-left: 40px;
+ 
+ 
+
+}
+.info2 h1{
+  color: #16a085; 
+ font-weight: bold;
+ font-family: serif;
+
+}
+ .info2 p{
+  display: inline-block;
+
+ }
+.Products{
+  background-color: white;
+ width: 92vw;
+ display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+position: relative;
+ margin-left: 40px;
+ margin-right: 0px;
+ margin-top: 60px;
+ top:25vh;
+padding:10px;
+}
+.circle div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; 
+  background-color: rgb(255, 255, 255);
+  
+
+
+
+}
+.circle div:nth-child(2){
+ 
+ height: 60px;
+ width:60px;
+ border-radius: 50%;
+ background-color: white;
+ justify-self:center;
+ align-self: flex-end;
+}
+.circle{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%; 
+  background-color: #DD4B39;
+  margin-left: 20%;
+
+
+}
+
+.info h1{
+
+ color: #16a085; 
+ font-weight: bold;
+ font-family: serif;
+
+}
+.img-container{
+  display: flex;
+  height: 500px;
+  width: 400px;
+  
+   
+ 
+}
+
+.info{
+ 
+  padding: 10px ;
+}
+.about{
+ background-color: white;
+ display: flex; 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+ position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  top:25vh;
+ padding:10px;
+
+}
 #swtich{
   margin-left: 0px;
   display: flex;
@@ -38,11 +190,12 @@
 
 }
 .nav-bar{
+  position:relative;
   background-color:#16a085 ;
    display: flex;
    padding-right: 20px;
    flex-direction: row-reverse;
-   position: relative;
+  
 }
 
 .Logo{
@@ -66,7 +219,7 @@ a:hover{
 }
 a{
  display: inline-block;
-  
+  font-family: serif;
    border: 2px solid #16a085;
    margin: 10px;
   text-decoration: none;
