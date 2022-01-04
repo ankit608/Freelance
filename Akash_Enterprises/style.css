@@ -70,9 +70,10 @@
 position: relative;
 background-color: white;
  top: 40vh;
- width: 92vw;
+ 
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
- margin-left: 40px;
+ margin-left: 3vw;
+ margin-right: 3vw;
  
  
 
@@ -89,7 +90,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
  }
 .Products{
   background-color: white;
- width: 92vw;
+ 
  display: flex;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 position: relative;
