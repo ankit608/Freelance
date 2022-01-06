@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=The+Nautigal:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.placeorder{
+  
+ position: relative;
+
+  margin: 5% auto;
+  height:300px;
+  width: 400px;
+  background-color: white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+
+}
+.placeorder div{
+  width: 100%;
+ font-size: large; 
+ position: relative;
+ top: 30%;
+ margin-top: 40px;
+ display: flex;
+ align-items: center;
+
+}
+
+input{
+  position: absolute;
+ right: 20%;
+position: absolute;
+ height: 2rem;
+  border: none;
+  border-bottom: 2px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  outline: none;
+  transition: 1s ease;
+
+}
+
+
+.btn{
+  position:absolute;
+   right: 5rem;
+   
+}
+button{
+  border:none;
+  height: 15px;
+  width: 15px;
+   background-color: white;
+   margin-right: 3px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    
+}
+
+i{
+  color: red;
+  cursor: pointer;
+
+}
+
+input:focus{
+
+  border-bottom-color: rgb(60, 255, 0) ; 
+ }
+ .Place_order{
+   position: relative;
+    height:4vh;
+    width: 10vw ;
+    border-radius: 10px;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s ease;
+
+
+ }
+
+.Place_order:hover{
+  border-color: white;
+  color: white;
+  background-color: orangered; 
+}
+
+  .nav-bar{
+    text-align: center; 
+    width: 100%;
+    font-family: 'The nautigal';
+    color: white;
+    
+
+  }
+  .display-profile{
+  
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-left: 10px;
+  }
+
+  .Profile{
+    height:70%;
+    background-color: rgb(255, 255, 255);
+    width:fit-content;
+    position: absolute;
+    top: 15%;
+    left:10px;
+    z-index: 2;
+
+  }

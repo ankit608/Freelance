@@ -194,7 +194,7 @@ img{
 
 .log{
   width: fit-content;
-  display: none;
+  display:none;
  margin: 7% auto;
  position: relative;
  padding:10px;

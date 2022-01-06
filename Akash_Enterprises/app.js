@@ -2,9 +2,7 @@ const Logme = document.querySelector(".Logme");
 const Logbox = document.getElementById("login-box");
 const signIn = document.querySelector(".SignIn");
 const Log = document.querySelector(".log");
-console.log(Logme);
-console.log(Logbox);
-console.log(signIn);
+const sign_up = document.getElementById("signup_submit");
 
 Logme.addEventListener('click',function(){
  
@@ -18,5 +16,12 @@ signIn.addEventListener('click',function(){
 
    Log.style.display='none';
    Logbox.style.display='block';
+
+})
+
+sign_up.addEventListener('click',function(){
+
+   const username = document.getElementById("username");
+  
 
 })
