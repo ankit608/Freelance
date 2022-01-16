@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="./order.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+       
+      <div class="nav-bar" style="background-color: #16a085;">
+       <h1>Akash Enterprises</h1>    
+      </div>
+      <div class="display-profile">
+        <i class="fas fa-angle-double-right"></i>
+      </div>
+      <div class="Profile">
+        <div></div>
+      </div>
+
+     <div class="placeorder">
+     
+       <div class="Quantity">
+        <span>Quantity:</span>
+       <input id ="quantity"type="text"  value= "0" name="Quant" placeholder="Enter the quantiy" oninput="display()">
+       <span class="btn">
+        <button  id ="Increment" class="Increment"><i class="fa fa-plus" aria-hidden="true"></i></button> 
+        <button   id ="Decrement" class="Increment"><i class="fa fa-minus" aria-hidden="true"></i></button> 
+       </span>
+       
+       </div>
+       <div class="Amount">
+        <span>Total Amount:</span><input id="amount" type="text " name="Amount" value="" disabled>
+       </div>
+        
+       <div>
+         <button  id = "order" class="Place_order">BUY</button>
+       </div>
+       
+     </div>
+	<script src="order.js"></script>
+  </body>
+</html>
